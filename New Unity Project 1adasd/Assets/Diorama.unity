@@ -37,7 +37,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44692492, g: 0.4967869, b: 0.57508546, a: 1}
+  m_IndirectSpecularColor: {r: 0.44692504, g: 0.4967869, b: 0.57508504, a: 1}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -199,7 +199,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 10
-  rotationSpeed: 50
+  rotationSpeed: 100
 --- !u!1 &363583076
 GameObject:
   m_ObjectHideFlags: 0
@@ -209,6 +209,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 363583077}
   - 108: {fileID: 363583078}
+  - 114: {fileID: 363583079}
   m_Layer: 0
   m_Name: Point light
   m_TagString: Untagged
@@ -263,6 +264,18 @@ Light:
   m_BounceIntensity: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!114 &363583079
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 363583076}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b1f2068eef716c14e9b64db9c76be352, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  offSet: 1
 --- !u!1 &425206130
 GameObject:
   m_ObjectHideFlags: 0
@@ -1502,4 +1515,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8cb38bcbd3c26ad46a0c797a31a7882f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 3096436}
+  player: {fileID: 0}
+  panSpeed: 3
