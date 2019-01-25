@@ -6,6 +6,7 @@ public class BallController : MonoBehaviour {
 	private Rigidbody rb;
 	public float speed = 10.0f;
 	public float rotationSpeed = 100.0f;
+	bool isVisibile = true;
 
 	void Start () {
 		rb = GetComponent<Rigidbody> ();

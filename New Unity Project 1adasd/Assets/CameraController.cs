@@ -52,18 +52,7 @@ public class CameraController : MonoBehaviour {
 				rot.x += panSpeed * Time.deltaTime;
 			}
 			transform.rotation = rot;
-		} else if (returnKey ().Equals ("m")) {
-			if (Input.GetKey (KeyCode.W)) {
-				rot.z += panSpeed * Time.deltaTime;
-			} else if (Input.GetKey (KeyCode.S)) {
-				rot.z -= panSpeed * Time.deltaTime;
-			} else if (Input.GetKey (KeyCode.A)) {
-				rot.x -= panSpeed * Time.deltaTime;
-			} else if (Input.GetKey (KeyCode.D)) {
-				rot.x += panSpeed * Time.deltaTime;
-			}
-			transform.rotation = rot;
-		} 
+		}
 	}
 
 	string returnKey() {
