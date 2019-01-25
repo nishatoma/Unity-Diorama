@@ -217,7 +217,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!23 &24556553
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -1349,10 +1349,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   object1: {fileID: 3096436}
   object2: {fileID: 24556552}
-  secondObject: 0
-  timeBetweenDisappears: 2
-  disappearTime: 2
-  delayTime: 2
+  secondObject: 1
+  timeBetweenDisappears: 1
+  disappearTime: 1
+  delayTime: 1
 --- !u!4 &1748582933
 Transform:
   m_ObjectHideFlags: 0
