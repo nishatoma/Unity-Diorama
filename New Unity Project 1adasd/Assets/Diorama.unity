@@ -1351,7 +1351,7 @@ MonoBehaviour:
   object2: {fileID: 24556552}
   secondObject: 1
   timeBetweenDisappears: 1
-  disappearTime: 1
+  disappearTime: 0.5
   delayTime: 1
 --- !u!4 &1748582933
 Transform:
